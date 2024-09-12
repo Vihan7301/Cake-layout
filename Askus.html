@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HELP</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Poppins;
+        }
+
+        .header {
+
+            header {
+                background: #D5528C;
+                color: white;
+
+                ul {
+                    display: flex;
+                    justify-content: end;
+                    list-style: none;
+                    margin-left: 10px;
+                    padding: 10px 60px;
+                }
+
+                li {
+                    align-items: end;
+                    margin-left: 10px;
+                }
+            }
+
+            .search {
+                margin: 10px 0px;
+                padding: 23px 60px 23px 60px;
+                display: flex;
+                justify-content: space-between;
+
+                .icon ul {
+                    margin-top: 15px;
+                    display: flex;
+                    list-style: none;
+
+                    li {
+                        padding-left: 24px;
+                    }
+                }
+
+                form {
+                    position: relative;
+
+                    input {
+                        background-color: #8D8D8D80;
+                        border-radius: 25px;
+                        width: 375px;
+                        height: 22px;
+                        padding: 0px 8px;
+                        margin-top: 15px;
+                        border: none;
+                        font-size: 10px;
+                    }
+
+                    button {
+                        position: absolute;
+                        top: 8px;
+                        right: 0px;
+                        border: none;
+                        background-color: transparent;
+                        cursor: pointer;
+                        width: 50px;
+                        height: 100%;
+                        color: gray;
+                        font-size: 10px;
+                    }
+                }
+            }
+
+            .navbar {
+                display: flex;
+                justify-content: space-between;
+                margin: 0px 60px;
+
+                a {
+                    color: black;
+                    text-decoration: none;
+                }
+            }
+
+        }
+
+        .main {
+            margin: auto;
+            margin-top: 61px;
+            display: flex;
+            width: 1320px;
+            flex-direction: column;
+            align-items: center;
+            background: #F7F6EE;
+            box-shadow: 0px 4px 40px 0px rgba(83, 104, 106, 0.20);
+
+            .head {
+                height: 58px;
+                flex-shrink: 0;
+                align-self: stretch;
+                border-bottom: 0.735px solid #F2F4F7;
+                background: var(--Color, #FFF);
+            }
+
+            .hearder-section {
+                background-color: #FE9BD3;
+                display: flex;
+                padding: 47.068px 0px;
+                flex-direction: column;
+                align-items: center;
+                gap: 47.068px;
+                flex-shrink: 0;
+                align-self: stretch;
+
+                .countainer {
+                    width: 1320px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 29.418px;
+                    align-self: stretch;
+
+                    .text {
+                        display: flex;
+                        width: 706.022px;
+                        flex-direction: column;
+                        align-items: center;
+                        gap: 17.651px;
+
+                        .text2 {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: flex-start;
+                            gap: 8.825px;
+                            align-self: stretch;
+
+                            .subheading {
+                                align-self: stretch;
+                                color: var(--Color-2, #000);
+                                text-align: center;
+                                font-size: 25px;
+                                font-style: normal;
+                                font-weight: 600;
+                                line-height: 17.651px;
+                            }
+
+                            .heading {
+                                align-self: stretch;
+                                color: var(--Color-2, #000);
+                                text-align: center;
+                                font-size: 50px;
+                                font-style: normal;
+                                font-weight: 600;
+                                line-height: 44.126px;
+                                letter-spacing: -1px;
+                            }
+                        }
+
+                        .suportingtext {
+                            width: 564.818px;
+                            color: var(--Color-2, #000);
+                            text-align: center;
+                            font-size: 22px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 22.063px;
+                        }
+                    }
+
+                    input {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        gap: 4.413px;
+                        height: 35px;
+                        border-radius: 10px;
+                        border: none;
+                        padding: 9px 12px 9px 33px;
+                    }
+                }
+            }
+        }
+
+        .FAQSection {
+            display: flex;
+            padding: 47.068px 0px;
+            flex-direction: column;
+            align-items: center;
+            gap: 47.068px;
+            flex-shrink: 0;
+            align-self: stretch;
+            background: var(--Color, #FFF);
+
+            .countainer {
+                display: flex;
+                width: 941.363px;
+                padding: 0px 23.534px;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 47.068px;
+
+                .content {
+                    display: flex;
+                    align-items: flex-start;
+                    gap: 23.534px;
+                    align-self: stretch;
+
+                    .text {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        gap: 14.709px;
+                        flex: 1 0 0;
+
+                        .text2 {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: flex-start;
+                            gap: 5.884px;
+                            align-self: stretch;
+
+                            div {
+
+                                align-self: stretch;
+                                color: #53686A;
+                                font-style: normal;
+                            }
+
+                            .head {
+                                font-size: 22px;
+                                font-weight: 500;
+                                line-height: 22.063px;
+                            }
+
+                            .supportingtext {
+                                font-size: 18px;
+                                font-weight: 400;
+                                line-height: 17.651px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .down {
+                display: flex;
+                width: 941.363px;
+                padding: 0px 23.534px;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 23.534px;
+
+                .content {
+                    display: flex;
+                    width: 894px;
+                    padding: 23.534px;
+                    justify-content: space-between;
+                    align-items: center;
+                    border-radius: 11.767px;
+                    background: rgba(254, 155, 211, 0.27);
+
+                    .text {
+                        display: flex;
+                        width: 564.818px;
+                        flex-direction: column;
+                        align-items: center;
+                        gap: 5.884px;
+                        flex-shrink: 0;
+
+                        .heading {
+                            color: var(--Color-2, #000);
+                            font-family: Poppins;
+                            font-size: 22px;
+                            font-style: normal;
+                            font-weight: 600;
+                            line-height: 22.063px;
+                            align-self: stretch;
+                        }
+
+                        .subheading {
+                            color: var(--Color-2, #000);
+                            font-family: Poppins;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 20.592px;
+                            width: 564.818px;
+                        }
+                    }
+                    .button{
+
+                    }
+                }
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <header>
+            <ul>
+                <li>CONTACT</li>
+                <li>HELP</li>
+                <li>ENQUIRES</li>
+            </ul>
+        </header>
+        <div class="search">
+            <div class="logo">
+                <img src="WhatsApp Image 2024-09-10 at 18.39.09.jpeg" alt="logo">
+            </div>
+            <div class="searchbar">
+                <form>
+
+                    <input type="text" placeholder="Search">
+                    <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+
+                </form>
+
+            </div>
+            <div class="icon">
+                <ul>
+                    <li><i class="fa-solid fa-cart-shopping"></i> </li>
+                    <li><i class="fa-solid fa-heart"></i></li>
+                    <li><i class="fa-solid fa-user"></i></li>
+                    <li><i class="fa-solid fa-bars"></i></li>
+                </ul>
+
+            </div>
+
+        </div>
+        <nav class=" navbar">
+            <a href="#">COOKIES</a>
+            <a href="#">CAKES</a>
+            <a href="#">COMBO</a>
+            <a href="#">HAMPER</a>
+            <a href="#">DESSERTS</a>
+            <a href="#">CUP CAKES</a>
+            <a href="#">NEW</a>
+        </nav>
+
+    </div>
+    <div class="main">
+        <div class="head"></div>
+        <div class="hearder-section">
+            <div class="countainer">
+                <div class="text">
+                    <div class="text2">
+                        <div class="subheading">FAQs</div>
+                        <div class="heading">Ask us anything</div>
+                    </div>
+                    <div class="suportingtext">Have any questions? We're here to assist you.</div>
+                </div>
+                <input type="text" placeholder="Search here">
+            </div>
+        </div>
+        <div class="FAQSection">
+            <div class="countainer">
+                <div class="content">
+                    <div class="text">
+                        <div class="icon"></div>
+                        <div class="text2">
+                            <div class="head">How do I change my account email?</div>
+                            <div class="supportingtext">You can log in to your account and change it from your Profile >
+                                Edit Profile. Then go to the general tab to change your email.</div>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <div class="icon"></div>
+                        <div class="text2">
+                            <div class="head">What should I do if my payment fails?</div>
+                            <div class="supportingtext">If your payment fails, you can use the (COD) payment option, if
+                                available on that order. If your payment is debited from your account after a payment
+                                failure, it will be credited back within 7-10 days.</div>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <div class="icon"></div>
+                        <div class="text2">
+                            <div class="head">What is your cancellation policy?</div>
+                            <div class="supportingtext">You can now cancel an order when it is in packed/shipped status.
+                                Any amount paid will be credited into the same payment mode using which the payment was
+                                made</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="text">
+                        <div class="icon"></div>
+                        <div class="text2">
+                            <div class="head">How do I check order delivery status ?</div>
+                            <div class="supportingtext">Please tap on “My Orders” section under main menu of
+                                App/Website/M-site to check your order status.</div>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <div class="icon"></div>
+                        <div class="text2">
+                            <div class="head">What is Instant Refunds?</div>
+                            <div class="supportingtext">Upon successful pickup of the return product at your doorstep,
+                                Myntra will instantly initiate the refund to your source account or chosen method of
+                                refund. Instant Refunds is not available in a few select pin codes and for all self ship
+                                returns.</div>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <div class="icon"></div>
+                        <div class="text2">
+                            <div class="head">How do I apply a coupon on my order?</div>
+                            <div class="supportingtext">You can apply a coupon on cart page before order placement. The
+                                complete list of your unused and valid coupons will be available under “My Coupons” tab
+                                of App/Website/M-site.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ques"></div>
+            </div>
+            <div class="down">
+                <div class="content">
+                    <div class="text">
+                        <div class="heading">Still have questions?</div>
+                        <div class="subheading">Can't find the answer you're looking for? Please chat to our friendly
+                            team.</div>
+                    </div>
+                    <button>Get in Touch</button>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>

@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Contact Us</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .header{
+            header {
+                background: #D5528C;
+                color: white;
+    
+                ul {
+                    display: flex;
+                    justify-content: end;
+                    list-style: none;
+                    margin-left: 10px;
+                    padding: 10px 60px;
+                }
+    
+                li {
+                    align-items: end;
+                    margin-left: 10px;
+                }
+            }
+    
+            .search {
+                margin: 10px 0px;
+                padding: 23px 60px 23px 60px;
+                display: flex;
+                justify-content: space-between;
+    
+                .icon ul {
+                    margin-top: 15px;
+                    display: flex;
+                    list-style: none;
+    
+                    li {
+                        padding-left: 24px;
+                    }
+                }
+    
+                form {
+                    position: relative;
+    
+                    input {
+                        background-color: #8D8D8D80;
+                        border-radius: 25px;
+                        width: 375px;
+                        height: 22px;
+                        padding: 0px 8px;
+                        margin-top: 15px;
+                        border: none;
+                        font-size: 10px;
+                    }
+    
+                    button {
+                        position: absolute;
+                        top: 8px;
+                        right: 0px;
+                        border: none;
+                        background-color: transparent;
+                        cursor: pointer;
+                        width: 50px;
+                        height: 100%;
+                        color: gray;
+                        font-size: 10px;
+                    }
+                }
+            }
+    
+            .navbar {
+                display: flex;
+                justify-content: space-between;
+                margin: 0px 60px;
+    
+                a {
+                    color: black;
+                    text-decoration: none;
+                }
+            }
+        }
+
+
+        .contactpage {
+            width: 1240px;
+            margin: auto;
+            border-radius: 10px;
+            background: var(--Color, #FFF);
+            box-shadow: 0px 0px 60px 30px rgba(0, 0, 0, 0.03);
+            margin-top: 61px;
+
+            .Name {
+                font-size: 40px;
+                color: rgb(280, 80, 143);
+                font-weight: bold;
+            }
+
+            .question {
+                margin-top: 16px;
+            }
+
+            .information {
+                border-radius: 10px;
+                background: var(--Color, #FFF);
+                box-shadow: 0px 0px 60px 30px rgba(0, 0, 0, 0.03);
+                margin-top: 61px;
+                width: 1240px;
+                display: flex;
+                margin: auto;
+                margin-top: 61px;
+
+                .left-side {
+                    color: white;
+                    width: 476px;
+                    background-color: rgb(255, 106, 190);
+                    border-radius: 10px;
+
+                    .write {
+                        display: inline-flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        gap: 111px;
+                        margin: 40px 90px 189px 45px;
+
+                        .head {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: flex-start;
+                            gap: 6px;
+
+                            .name {
+                                color: var(--Color, #FFF);
+                                font-family: Poppins;
+                                font-size: 28px;
+                                font-style: normal;
+                                font-weight: 600;
+                                line-height: normal;
+                            }
+
+                            .question {
+                                color: #C9C9C9;
+                                font-family: Poppins;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                        }
+
+                        .detail {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: flex-start;
+                            gap: 50px;
+
+                            .number {
+                                color: var(--Color, #FFF);
+                                font-family: Poppins;
+                                font-size: 16px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+
+                            .mail {
+                                color: var(--Color, #FFF);
+                                font-family: Poppins;
+                                font-size: 16px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+
+                            .address {
+                                color: var(--Color, #FFF);
+                                font-family: Poppins;
+                                font-size: 16px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                        }
+                    }
+
+                    .logo {
+                        display: inline-flex;
+                        align-items: flex-start;
+                        gap: 24px;
+                        margin: 0px 0px 24px 44px;
+
+                        img {
+                            width: 30px;
+                            height: 30px;
+                            margin-right: 24px;
+                            border-radius: 20px;
+                        }
+                    }
+                }
+
+                .right-side {
+                    display: flex;
+                    width: 648px;
+                    justify-content: space-between;
+                    align-items: flex-start;
+                    align-content: flex-start;
+                    flex-wrap: wrap;
+                    margin-left: 44px;
+                    margin-top: 99px;
+                    row-gap: 32px;
+                    column-gap: 24px;
+
+                    .name {
+                        display: flex;
+                        width: 281px;
+                        height: 55px;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        gap: 12px;
+                        flex-shrink: 0;
+
+                        label {
+                            color: #E966A0;
+                            font-family: Poppins;
+                            font-size: 22px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: 20px;
+                        }
+                    }
+
+                    .select {
+                        display: flex;
+
+                        label {
+                            width: 170px;
+                            height: 20px;
+                            flex-shrink: 0;
+                            color: #FF6ABE;
+                            font-family: Poppins;
+                            font-size: 22px;
+                            font-style: normal;
+                            font-weight: 600;
+                            line-height: 20px;
+                        }
+
+                        .options {
+                            display: flex;
+                            flex-wrap: wrap;
+                            row-gap: 32px;
+
+                            .check {
+                                display: flex;
+                            }
+
+                            input {
+                                margin-left: 86px;
+                                margin-right: 8px;
+                            }
+
+                            .custom {
+
+                                color: #BDBDBD;
+                                font-family: Poppins;
+                                font-size: 15px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 20px;
+                            }
+
+                        }
+                    }
+
+                    .message {
+                        display: grid;
+                        gap: 12px;
+                        label {
+                            display: flex;
+                            width: 616px;
+                            flex-direction: column;
+                            align-items: flex-start;
+                            gap: 12px;
+                            flex-shrink: 0;
+                        }
+                        span {
+                            color: #E966A0;
+                            font-family: Poppins;
+                            font-size: 22px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: 20px;
+                        }
+                    }
+                    .give {
+
+                    }
+                }
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <header >
+            <ul>
+                <li>CONTACT</li>
+                <li>HELP</li>
+                <li>ENQUIRES</li>
+            </ul>
+        </header>
+        <div class="search">
+            <div class="logo">
+                <img src="WhatsApp Image 2024-09-10 at 18.39.09.jpeg" alt="logo">
+            </div>
+            <div class="searchbar">
+                <form>
+
+                    <input type="text" placeholder="Search">
+                    <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+
+                </form>
+
+            </div>
+            <div class="icon">
+                <ul>
+                    <li><i class="fa-solid fa-cart-shopping"></i> </li>
+                    <li><i class="fa-solid fa-heart"></i></li>
+                    <li><i class="fa-solid fa-user"></i></li>
+                    <li><i class="fa-solid fa-bars"></i></li>
+                </ul>
+
+            </div>
+
+        </div>
+        <nav class=" navbar">
+            <a href="#">COOKIES</a>
+            <a href="#">CAKES</a>
+            <a href="#">COMBO</a>
+            <a href="#">HAMPER</a>
+            <a href="#">DESSERTS</a>
+            <a href="#">CUP CAKES</a>
+            <a href="#">NEW</a>
+        </nav>
+
+    </div>
+    <div class="contactpage">
+        <div class="heading">
+            <center>
+                <span class="Name">Contact us</span>
+                <div class="question">Any question or remarks? Just write us a message!</div>
+            </center>
+        </div>
+        <div class="information">
+            <div class="left-side">
+                <div class="write">
+                    <div class="head">
+                        <div class="name">
+                            Contact Information
+                        </div>
+                        <div class="question">
+                            Say something to start a live chat!
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <div class="number">+1012 3456 789</div>
+                        <div class="mail">demo@gmail.com</div>
+                        <div class="address">132 Dartmouth Street Boston, Massachusetts 02156 United States</div>
+                    </div>
+                </div>
+                <div class="logo">
+                    <img src="Group 1000001749.jpg" alt="">
+                    <img src="Group 1000001750.jpg" alt="">
+                    <img src="Group 1000001751.jpg" alt="">
+                </div>
+            </div>
+            <div class="right-side">
+                <div class="name">
+                    <label for="username">First Name</label>
+                    <input type="text" id="username">
+                </div>
+                <div class="name">
+                    <label for="lastname">Last Name</label>
+                    <input type="text" id="lastname">
+                </div>
+                <div class="name">
+                    <label for="email">Email</label>
+                    <input type="text" id="email">
+                </div>
+                <div class="name">
+                    <label for="number">Phone Number</label>
+                    <input type="number" id="number">
+                </div>
+                <div class="select">
+                    <label for="subject" id="">Select Subject</label>
+                    <div class="options">
+                        <div class="check">
+                            <input type="radio" name="custom"><span class="custom">Customization</span>
+                            <input type="radio" name="custom"><span class="custom">Customization</span>
+                        </div>
+                        <div class="check">
+                            <input type="radio" name="custom"> <span class="custom">Customization</span>
+                            <input type="radio" name="custom"><span class="custom">General Enquiry</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="message">
+                    <label for="mes"><span>Message</span></label>
+                    <input type="text" id="mes">
+                </div>
+                <div class="button">
+                    <button class="give">Give it a try</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
