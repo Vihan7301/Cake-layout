@@ -14,11 +14,12 @@
             padding: 0;
             box-sizing: border-box;
         }
-        .header{
+
+        .header {
             header {
                 background: #D5528C;
                 color: white;
-    
+
                 ul {
                     display: flex;
                     justify-content: end;
@@ -26,32 +27,32 @@
                     margin-left: 10px;
                     padding: 10px 60px;
                 }
-    
+
                 li {
                     align-items: end;
                     margin-left: 10px;
                 }
             }
-    
+
             .search {
                 margin: 10px 0px;
                 padding: 23px 60px 23px 60px;
                 display: flex;
                 justify-content: space-between;
-    
+
                 .icon ul {
                     margin-top: 15px;
                     display: flex;
                     list-style: none;
-    
+
                     li {
                         padding-left: 24px;
                     }
                 }
-    
+
                 form {
                     position: relative;
-    
+
                     input {
                         background-color: #8D8D8D80;
                         border-radius: 25px;
@@ -62,7 +63,7 @@
                         border: none;
                         font-size: 10px;
                     }
-    
+
                     button {
                         position: absolute;
                         top: 8px;
@@ -77,12 +78,12 @@
                     }
                 }
             }
-    
+
             .navbar {
                 display: flex;
                 justify-content: space-between;
                 margin: 0px 60px;
-    
+
                 a {
                     color: black;
                     text-decoration: none;
@@ -236,6 +237,12 @@
                             font-weight: 500;
                             line-height: 20px;
                         }
+
+                        input {
+                            border: none;
+                            border-bottom: 1px black solid;
+                            border-left: 1px black solid;
+                        }
                     }
 
                     .select {
@@ -283,6 +290,7 @@
                     .message {
                         display: grid;
                         gap: 12px;
+
                         label {
                             display: flex;
                             width: 616px;
@@ -291,6 +299,7 @@
                             gap: 12px;
                             flex-shrink: 0;
                         }
+
                         span {
                             color: #E966A0;
                             font-family: Poppins;
@@ -299,20 +308,38 @@
                             font-weight: 500;
                             line-height: 20px;
                         }
-                    }
-                    .give {
 
+                        input {
+                            border: none;
+                            border-bottom: 1px black solid;
+                            border-left: 1px black solid;
+                        }
+                    }
+
+                    .button {
+                        margin: auto;
+                    }
+
+                    .give {
+                        text-align: center;
+                        background-color: #E966A0;
+                        width: 160px;
+                        height: 57px;
+                        padding: 11px 18px;
+                        color: white;
+                        border: none;
+                        border-radius: 1000px;
+                        font-size: 20px;
                     }
                 }
             }
         }
-
     </style>
 </head>
 
 <body>
     <div class="header">
-        <header >
+        <header>
             <ul>
                 <li>CONTACT</li>
                 <li>HELP</li>
