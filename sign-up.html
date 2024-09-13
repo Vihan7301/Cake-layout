@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up Page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Poppins;
+        }
+
+        body {
+            display: flex;
+        }
+
+        .main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 19px;
+            position: absolute;
+            left: 179px;
+            top: 130px;
+
+            .text {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 16px;
+                width: 358px;
+
+                .heading {
+                    color: var(--Gray-900, #2A3342);
+                    text-align: center;
+                    font-size: 30px;
+                    font-weight: 700;
+                    line-height: 38px;
+                }
+
+                .subheading {
+                    color: var(--Gray-500, #556987);
+                    text-align: center;
+                    font-size: 18px;
+                    font-weight: 500;
+                    line-height: 28px;
+                }
+            }
+
+            .input {
+                display: flex;
+                width: 358px;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 6px;
+
+                label {
+                    color: var(--Gray-800, #333F51);
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 24px;
+                }
+
+                input {
+                    display: flex;
+                    width: 358px;
+                    height: 46px;
+                    padding: 10px 14px;
+                    align-items: center;
+                    gap: 8px;
+                }
+            }
+
+            .forgot {
+                display: flex;
+                gap: 11px;
+
+                input {
+                    width: 16px;
+                    height: 16px;
+                    border-radius: 4px;
+                    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+                }
+
+                label {
+                    width: 160px;
+                    color: var(--Gray-800, #333F51);
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 18px;
+                }
+
+                .forgot {
+                    width: 160px;
+                    color: #FF6ABE;
+                    text-align: right;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 18px;
+                }
+            }
+
+            .button {
+                display: flex;
+                padding: 4px;
+                justify-content: center;
+
+                button {
+                    text-align: center;
+                    background-color: #E966A0;
+                    width: 122px;
+                    height: 42px;
+                    padding: 11px 18px;
+                    color: white;
+                    border: none;
+                    border-radius: 1000px;
+                    font-size: 14px;
+                }
+            }
+
+            .google {
+                display: flex;
+                width: 358px;
+                height: 46px;
+                padding: 12px 18px;
+                justify-content: center;
+                align-items: center;
+                gap: 8px;
+            }
+
+            .already {}
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="text">
+            <div class="heading">Join our community</div>
+            <div class="subheading">Start your journey with our product</div>
+        </div>
+        <div class="input">
+            <label for="name">Name</label>
+            <input type="text" id="name">
+        </div>
+        <div class="input">
+            <label for="email">Email</label>
+            <input type="text" id="email">
+        </div>
+        <div class="input">
+            <label for="pass">Password</label>
+            <input type="text" id="pass">
+        </div>
+        <div class="forgot">
+            <input type="checkbox" id="Remember">
+            <label for="Remember">Remember me</label>
+            <div class="forgot">Forgot your password?</div>
+        </div>
+        <div class="button"><button>Sign In</button></div>
+        <div class="google">
+            <img src="Social icon.jpg" alt="">
+            <div class="googlein">Sign in with Google</div>
+        </div>
+        <div class="already"></div>
+    </div>
+</body>
+
+</html>
