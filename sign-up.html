@@ -13,7 +13,7 @@
             font-family: Poppins;
         }
 
-       
+
 
         .main {
             display: flex;
@@ -67,8 +67,10 @@
                     width: 358px;
                     height: 46px;
                     padding: 10px 14px;
-                    align-items: center;
-                    gap: 8px;
+                    color: var(--Gray-900, #2A3342);
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
                 }
             }
 
@@ -139,27 +141,29 @@
             }
 
             .already {
-                    width: 218px;
-                    color: var(--Gray-800, #333F51);
-                    text-align: center;
-                    font-size: 12px;
-                    font-style: normal;
-                    font-weight: 500;
-                    line-height: 18px;
+                width: 218px;
+                color: var(--Gray-800, #333F51);
+                text-align: center;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 18px;
 
-                    .sign {
-                        color: #FF6ABE;
-                    }
+
+                .sign {
+                    color: #FF6ABE;
+                }
 
             }
         }
+
         .vector {
-                position: absolute;
-                left: 60px;
-                top: 40px;
-                display: flex;
-                border: none;
-            }
+            position: absolute;
+            left: 60px;
+            top: 40px;
+            display: flex;
+            border: none;
+        }
     </style>
 </head>
 
@@ -171,15 +175,15 @@
         </div>
         <div class="input">
             <label for="name">Name</label>
-            <input type="text" id="name">
+            <input type="text" id="name" placeholder="Patryk">
         </div>
         <div class="input">
             <label for="email">Email</label>
-            <input type="text" id="email">
+            <input type="text" id="email" placeholder="pat@shuffle.dev">
         </div>
         <div class="input">
             <label for="pass">Password</label>
-            <input type="text" id="pass">
+            <input type="text" id="pass" placeholder="************************">
         </div>
         <div class="forgot">
             <input type="checkbox" id="Remember">
