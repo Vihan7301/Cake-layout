@@ -13,9 +13,7 @@
             font-family: Poppins;
         }
 
-        body {
-            display: flex;
-        }
+       
 
         .main {
             display: flex;
@@ -131,10 +129,37 @@
                 justify-content: center;
                 align-items: center;
                 gap: 8px;
+
+                .googlein {
+                    color: var(--Gray-500, #556987);
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 24px;
+                }
             }
 
-            .already {}
+            .already {
+                    width: 218px;
+                    color: var(--Gray-800, #333F51);
+                    text-align: center;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 18px;
+
+                    .sign {
+                        color: #FF6ABE;
+                    }
+
+            }
         }
+        .vector {
+                position: absolute;
+                left: 60px;
+                top: 40px;
+                display: flex;
+                border: none;
+            }
     </style>
 </head>
 
@@ -166,8 +191,9 @@
             <img src="Social icon.jpg" alt="">
             <div class="googlein">Sign in with Google</div>
         </div>
-        <div class="already"></div>
+        <div class="already">Already have an account? <span class="sign">Sign in</span></div>
     </div>
+    <button class="vector"><img src="Vector.jpg" alt=""></button>
 </body>
 
 </html>
